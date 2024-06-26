@@ -1,6 +1,7 @@
-let tom = "Tom ";
-let firtsTom = "Hanks";
-let secondTom = "cruise";
-let myFavotiteTom = secondTom
+const tom = "Tom ";
+const firtsTom = "Hanks";
+const secondTom = "cruise";
 
-console.log("My Favorite Tom is: " + tom  + myFavotiteTom);
+const myFavotiteTom = tom + secondTom;
+
+console.log("My Favorite Tom is: " + myFavotiteTom);
