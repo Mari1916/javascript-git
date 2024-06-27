@@ -1,4 +1,6 @@
-const hours = 18;
+let hours = 18;
+const bomDia = hours >= 6 && hours <= 11
+const boaTarde = hours >= 12 && hours <= 17 
 
 //if(hours < 12) {
   //  console.log("Bom dia!");
@@ -8,9 +10,9 @@ const hours = 18;
   //  console.log("Boa noite!");
 //}
 
-if (hours >= 6 && hours <= 11) {
+if (bomDia) {
     console.log("Bom dia!!");
-}else if (hours >= 12 && hours <= 17 ){
+}else if (boaTarde){
     console.log("Boa tarde!!");
 }else {
     console.log("Boa noite!!")
