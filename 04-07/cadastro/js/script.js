@@ -17,5 +17,7 @@ form.addEventListener("submit", function(event) {
     //Adiciona o novo item na lista
     cadastroList.appendChild(listItem)
 
+    //Limpa o campo de entrada
+    form.requestFullscreen()
 
     })
