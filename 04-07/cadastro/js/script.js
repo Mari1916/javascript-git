@@ -10,9 +10,12 @@ form.addEventListener("submit", function(event) {
 
     event.preventDefault();
 
-    console.log(nome.value)
-    console.log(email.value)
+    //cria um novo item de lista com os valores
+    let listItem = document.createElement("li")
+    listItem.innerHTML = `<strong>Nome:</strong> ${nome.value}<br><strong>Email:</strong> ${email.value}`
 
-    nome.value = " ";
-    email.value = " ";
+    //Adiciona o novo item na lista
+    cadastroList.appendChild(listItem)
+
+
     })
