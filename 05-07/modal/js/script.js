@@ -13,7 +13,9 @@ popup.addEventListener("click", function(event) {
     const classListClick = event.target.classList[0]
     const classNameArray = ["popup-close", "popup-link", "popup-wrapper"]
 
-    if (classNameArray.includes(classListClick)) {
+    const junção = (classNameArray.includes(classListClick))
+
+    if (junção) {
         popup.classList.remove("d-block")
     }
 })
